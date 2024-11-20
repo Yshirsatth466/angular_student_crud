@@ -1,4 +1,4 @@
-Student Management CRUD Application
+#Student Management CRUD Application
 A simple Student Management System built using Angular and JSON Server for CRUD operations.
 
 Features
