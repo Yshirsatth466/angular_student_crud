@@ -1,0 +1,22 @@
+<p>editstudent works!</p>
+<p class="text-center text-success font-weight-bold border">edit Student</p>
+<div class="form">
+<form [formGroup]="studentforms" (ngSubmit)="updatetstudent()" class="p-4 border rounded bg-light border border-black ">
+    <div class="form-group">
+        <input type="text" class="form-control mb-3" placeholder="Enter id" formControlName="id">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control mb-3" placeholder="Enter name" formControlName="name">
+    </div>
+    <div class="form-group">
+        <input type="email" class="form-control mb-3" placeholder="Enter email" formControlName="email">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control mb-3" placeholder="Enter contact" formControlName="contact">
+    </div>
+    <div class="form-group">
+        <input type="text" class="form-control mb-3" placeholder="Enter marks" formControlName="marks">
+    </div>
+    <button type="submit"  class="btn w-100 btn-primary">Save</button>
+</form>
+</div>
